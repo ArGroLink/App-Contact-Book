@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Apps/App-Contact-Book/src/store/store.ts"],"sourcesContent":["import { configureStore } from \"@reduxjs/toolkit\";\r\nimport contactReducer from \"./reducer.js\";\r\n\r\nexport const store = configureStore({\r\n  reducer: {\r\n    contacts: contactReducer,\r\n  },\r\n});\r\n\r\nexport type RootState = ReturnType<typeof store.getState>;\r\nexport type AppDispatch = typeof store.dispatch;\r\n"],"names":[],"mappings":";;;;AAAA;;;;;;;;AAGO,MAAM,QAAQ,IAAA,mJAAc,EAAC;IAClC,SAAS;QACP,UAAU;IACZ;AACF","debugId":null}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///C:/Apps/App-Contact-Book/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from \"next/app\";\nimport { Provider } from \"react-redux\";\nimport { store } from \"../store/store\";\n\nimport \"bootstrap/dist/css/bootstrap.min.css\";\n\nexport default function MyApp({ Component, pageProps }: AppProps) {\n  return (\n    <Provider store={store}>\n      <Component {...pageProps} />\n    </Provider>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;;;;;AAIe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBACE,qKAAC,iIAAQ;QAAC,OAAO,uHAAK;kBACpB,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;;;;;AAG9B","debugId":null}}]
+}

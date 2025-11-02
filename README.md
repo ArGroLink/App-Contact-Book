@@ -17,7 +17,7 @@ npm run start:dev
 npm run build
 
 # Запуск production сборки
-npm start:prod
+npm run start:prod
 
 ✨ Возможности:
 

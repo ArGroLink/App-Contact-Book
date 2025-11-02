@@ -1,6 +1,6 @@
 # 📞 Телефонная книга
 
-Vercel - [https://github.com/ArGroLink/App-Contact-Book](https://app-contact-book.vercel.app/)
+Vercel - [App-Contact-Book](https://app-contact-book.vercel.app/)
 
 Современное React/Next.js приложение для управления контактами с сохранением данных в браузере.
 
